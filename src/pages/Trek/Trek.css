@@ -1,0 +1,63 @@
+h5 {
+  /* color: bisque !important; */
+}
+
+.detail_nav ul {
+  display: flex;
+  gap: 15px;
+}
+.detail_nav ul li {
+  /* border: 1px solid ; */
+  padding: 10px;
+  border-radius: 5px 20px 5px;
+  cursor: pointer;
+  background-color: rgb(211, 232, 250);
+}
+.detail_nav ul li.active {
+  background-color: rgb(0, 72, 255);
+  color: aliceblue;
+}
+.detail_nav ul li:hover {
+  background-color: rgb(0, 72, 255);
+  color: aliceblue;
+}
+.detail_nav {
+  position: relative;
+  top: -2%;
+}
+.body_contaiber li {
+  border-bottom: 3px solid gray;
+  /* padding: 2px; */
+  /* text-align: justify !important; */
+}
+.body_contaiber li:last-child {
+  border: none;
+}
+
+.tag {
+  --mask: conic-gradient(
+      from -105deg at right,
+      #0000,
+      #000 1deg 29deg,
+      #0000 30deg
+    )
+    50%/100% 2.68rem;
+  -webkit-mask: var(--mask);
+  mask: var(--mask);
+
+  color: aliceblue;
+}
+
+.banner {
+  background: linear-gradient(#51848f7d, #51848f),
+    url("../../../public/aboutusimg.jpeg") center no-repeat;
+  height: 340px;
+  position: relative;
+}
+
+.banner_container {
+  position: absolute;
+  top: 30%;
+  left: 0;
+  right: 0;
+}
