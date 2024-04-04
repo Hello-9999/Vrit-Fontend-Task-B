@@ -1,0 +1,9 @@
+.footerContainer {
+  background: linear-gradient(rgba(169, 165, 165, 0.748), rgba(119, 118, 118, 0.573)),
+    url(/public/footerbackground.png)no-repeat;
+    
+}
+
+h5 {
+  /* color: aqua !important; */
+}
