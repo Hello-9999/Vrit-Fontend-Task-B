@@ -5,7 +5,6 @@ import Contact from "./pages/contact/Contact";
 import Trek from "./pages/Trek/Trek";
 
 function App() {
-  const [count, setCount] = useState(0);
 
   return (
     <>
