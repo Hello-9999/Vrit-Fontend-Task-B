@@ -16,7 +16,18 @@ const Contact = () => {
 
       <div className="contact_form p-5 md:p-10">
         <div className="conatct_title text-left">
-          <p className="mb-0 text-red-500 font-bold">connect with us</p>
+          <div className="text_title">
+            <div className="line"></div>
+
+            <h5
+              className="text-left text-xl"
+              style={{
+                color: " #C2292E",
+              }}
+            >
+              Connect With Us{" "}
+            </h5>
+          </div>
           <h5 className="p-0  font-semibold text-2xl md:text-3xl">
             Feel Free To Contact With Us
           </h5>
@@ -119,7 +130,10 @@ const Contact = () => {
             <h5 className="md:text-2xl">Have Any Questions ?</h5>
 
             <p className="text-justify">
-            Don't hesitate to contact us with any questions, concerns, or requests you may have. Our team is dedicated to providing exceptional service and support to ensure your experience with us is enjoyable. 
+              Don't hesitate to contact us with any questions, concerns, or
+              requests you may have. Our team is dedicated to providing
+              exceptional service and support to ensure your experience with us
+              is enjoyable.
             </p>
 
             <div className="callUS flex gap-3  m-auto">
@@ -149,7 +163,7 @@ const Contact = () => {
               <div className="">
                 <div className="title text-left">
                   {" "}
-                  <span >
+                  <span>
                     {" "}
                     <b>Visit us </b>
                   </span>{" "}

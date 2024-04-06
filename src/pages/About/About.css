@@ -44,24 +44,29 @@
 }
 
 .whychoose_point ul li {
-  list-style: none;
   padding: 10px;
 }
-.whychoose_point ul {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr); /* Three columns */
-  gap: 10px;
-}
+
 .whychoose_point ul li::before {
-  /* list-style: none; */
-  content: "\2713"; /* Unicode character for check mark */
-  display: inline-block;
-  width: 2rem;
-  margin-left: -1em;
-  background-color: #c2292e;
+  content: "\2713";
+  font-size: 1rem;
+  margin-right: 10px;
   color: aliceblue;
+  background-color: #c2292e;
+  padding: 5px 10px;
   border-radius: 50%;
-  /* padding: 20px; */
-  /* padding: 10px 10px;  */
-  /* padding-left: 2rem; */
+}
+.text_title{
+  display: flex;
+  align-items: center;
+}
+.text_title .line {
+  height: 4px;
+  width: 3rem;
+  border-radius: 15px;
+  background-color: #c2292e;
+  margin-bottom: 5px;
+}
+.text_title h5{
+  padding-left: 1rem;
 }

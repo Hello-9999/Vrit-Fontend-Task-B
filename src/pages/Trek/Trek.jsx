@@ -28,7 +28,18 @@ const Trek = () => {
 
         <div className="trek_container p-5 md:p-10">
           <div className="trek_title text-left">
-            <p className="mb-0 text-red-500 font-bold">Explore The World </p>
+            <div className="text_title">
+              <div className="line"></div>
+
+              <h5
+                className="text-left text-xl"
+                style={{
+                  color: " #C2292E",
+                }}
+              >
+                Explore The World{" "}
+              </h5>
+            </div>
             <h5 className="p-0  font-semibold text-2xl md:text-3xl">
               Langtang Valley Trek{" "}
             </h5>
@@ -572,7 +583,19 @@ const Trek = () => {
 
           <div className="review p-5">
             <div className="review_title text-left">
-              <p className="mb-0 text-red-500 font-bold">Tours Reviews</p>
+              <div className="text_title">
+                <div className="line"></div>
+
+                <h5
+                  className="text-left text-xl"
+                  style={{
+                    color: " #C2292E",
+                  }}
+                >
+                  Tours Reviews{" "}
+                </h5>
+              </div>
+         
               <h5 className="p-0  font-semibold text-2xl md:text-3xl">
                 What other Travellers has to says ?{" "}
               </h5>

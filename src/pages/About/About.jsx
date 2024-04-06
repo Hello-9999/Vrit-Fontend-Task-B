@@ -20,11 +20,12 @@ const About = () => {
         style={{ marginTop: "2rem" }}
       >
         <div className="title md:w-2/4">
-          {/* <</p> */}
-
-          <h5 className=" text-xl text-left" style={{ color: " #C2292E" }}>
-            About Himalayan fair reisen
-          </h5>
+          <div className="text_title">
+            <div className="line"></div>
+            <h5 className=" text-xl " style={{ color: " #C2292E" }}>
+              About Himalayan fair reisen
+            </h5>
+          </div>
 
           <h2 style={{ textAlign: "left" }}>
             Best Trekking Partner For your holidays
@@ -128,14 +129,18 @@ const About = () => {
         </div>
 
         <div className="md:w-2/4">
-          <h5
-            className="text-left text-xl"
-            style={{
-              color: " #C2292E",
-            }}
-          >
-            Amongst all{" "}
-          </h5>
+          <div className="text_title">
+            <div className="line"></div>
+
+            <h5
+              className="text-left text-xl"
+              style={{
+                color: " #C2292E",
+              }}
+            >
+              Amongst all{" "}
+            </h5>
+          </div>
 
           <h2 className="text-left">Why choose us? </h2>
           <p className="text-justify">
@@ -154,8 +159,7 @@ const About = () => {
           </p>
 
           <div className="whychoose_point">
-            <ul>
-              {/* <li style={{listStyle: url(CheckCircleIcon)}}>Diverse Destinations</li> */}
+            <ul className="text-justify grid  md:grid-cols-2 ">
               <li>beautiful places</li>
               <li>value for money</li>
               <li>safe travel</li>
